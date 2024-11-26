@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="Style.css">
+    <title>My Portfolio</title>
+</head>
+
+<body>
+    <!-- Header section -->
+    <header>
+        <a href="#" class="logo">My<span>Portfolio</span></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#services">Skills</a></li>
+            <li><a href="#plans">Projects</a></li>
+            <li><a href="#review">Contact</a></li>
+        </ul>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content" data-aos="zoom-in">
+            <h1>I'm Aryan, a Developer</h1>
+            <h3><span class="multiple-text"></span></h3>
+            <p>"Passionate about crafting efficient solutions and bringing creative ideas to life through code. With expertise in MERN-stack development, I enjoy tackling new challenges, learning, and growing with each project."</p>
+            <a href="#review" class="btn">Contact Me</a>
+        </div>
+        <div class="home-img" data-aos="zoom-in">
+            <img src="assets/aryan.png" alt="Profile Picture">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-img" data-aos="zoom-in-down">
+            <img src="assets/aryan.png" alt="About Me Image">
+        </div>
+        <div class="about-content" data-aos="zoom-in-up">
+            <h2 class="heading" data-aos="zoom-in-down"><span>About</span> Me</h2>
+            <p> Hello! I'm <strong>Aryan</strong>, a Bachelor of Computer Application student passionate about technology and software development.</p>
+            <p> I’ve created projects like a <strong>Wedding Banquet Management System</strong> using the MERN stack, enhancing client engagement and streamlining venue management workflows.</p>
+            <p>
+                Outside of development, I’m driven by curiosity, continuously learning to stay updated with tech trends. When not coding, I enjoy sketching and exploring new software tools to broaden my skillset.
+            </p>
+        </div>
+    </section>
+
+
+    <!-- Skills Section -->
+    <section class="services" id="services">
+        <h2 class="heading" data-aos="zoom-in-down">My <span>Skills</span></h2>
+        <div class="services-content" data-aos="zoom-in-up">
+            <div class="row">
+                <img src="assets/Frontend.png" style="height: 10rem; width: 10rem; filter: brightness(0) invert(1); margin: 0 14rem;"  alt="Frontend Development">
+                <h4>Frontend Development</h4>
+                <p>Experienced in HTML, CSS, and React.js to create engaging and responsive interfaces.</p>
+            </div>
+            <div class="row">
+                <img src="assets/nodejs.png" style="height: 10rem; width: 10rem; filter: brightness(0) invert(1); margin: 0 14rem;" alt="Backend Development">
+                <h4>Backend Development</h4>
+                <p>Skilled in Node.js and Express.js to build robust server-side applications.</p>
+            </div>
+            <div class="row">
+                <img src="assets/mongodb.png" style="height: 10rem; width: 10rem; filter: brightness(0) invert(1); margin: 0 14rem;" alt="Database Management">
+                <h4>Database Management</h4>
+                <p>Proficient in MongoDB and MySQL for effective data storage and management.</p>
+            </div>
+            <div class="row">
+                <img src="assets/c (1).png" style="height: 10rem; width: 10rem; filter: brightness(0) invert(1); margin: 0 14rem;" alt="Programming Languages">
+                <h4>Programming Languages</h4>
+                <p>Competent in Python, Java, C++, and JavaScript, with achievements in coding competitions.</p>
+            </div>
+            <div class="row">
+                <img src="assets/visual-studio-code.png" style="height: 10rem; width: 10rem; filter: brightness(0) invert(1); margin: 0 14rem;" alt="Developer Tools">
+                <h4>Developer Tools</h4>
+                <p>Familiar with tools like VS Code and Git to streamline the development process.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Projects Section -->
+    <section class="plans" id="plans">
+        <h2 class="heading" data-aos="zoom-in-down">My <span>Projects</span></h2>
+        <div class="plans-content" data-aos="zoom-in-up">
+            <div class="box">
+                <h3>Calculator Project</h3>
+                <h2><span>React Application</span></h2>
+                <ul>
+                    <li>Responsive Design</li>
+                    <li>Built with React</li>
+                </ul>
+                <a href="#">
+                    View Project
+                    <i class='bx bx-right-arrow-alt'></i>
+                </a>
+            </div>
+            
+            <div class="box">
+                <h3>Wedding Banquet Management System</h3>
+                <h2><span>Web Application</span></h2>
+                <ul>
+                    <li>Technologies Used: MERN Stack (MongoDB, Express.js, React.js, Node.js)</li>
+                    <li>Improved Client Engagement by 30%</li>
+                    <li>Optimized Data Retrieval by 25%</li>
+                </ul>
+                <a href="#">
+                    View Project
+                    <i class='bx bx-right-arrow-alt'></i>
+                </a>
+            </div>
+            <div class="box">
+                <h3>Project Three</h3>
+                <h2><span>API Development</span></h2>
+                <ul>
+                    <li>RESTful APIs</li>
+                    <li>Node.js and Express</li>
+                    <li>Database Integration</li>
+                </ul>
+                <a href="#">
+                    View Project
+                    <i class='bx bx-right-arrow-alt'></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="review" id="review">
+        <div class="review-box">
+            <h2 class="heading" data-aos="zoom-in-down"><span>Contact</span> Me</h2>
+            <div class="wrapper" data-aos="zoom-in-up">
+                <form action="#" method="post">
+                    <div class="review-item">
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="review-item">
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="review-item">
+                        <textarea id="message" name="message" rows="4" placeholder="Enter your message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+        </div>
+        <p class="copyright">
+            &copy; Aryan's Portfolio 2024 - All Rights Reserved
+        </p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset:300,
+        duration:1400,
+      });
+    </script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
